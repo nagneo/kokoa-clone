@@ -1,5 +1,15 @@
+/*https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing*/
+html {
+    background-color: tomato;
+}
+body {
+    margin: 50px 10px;
+    background-color: thistle;
+    padding: 20px;
+}
 div {
     height: 150px;
     width: 150px;
-    background-color: tomato;
+    margin: 100px 50px;
+    background-color: white;
 }
