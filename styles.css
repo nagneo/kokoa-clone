@@ -7,9 +7,28 @@ body {
     background-color: thistle;
     padding: 20px;
 }
-div {
-    height: 150px;
-    width: 150px;
-    margin: 100px 50px;
-    background-color: white;
+
+* {
+    border: 2px solid;
+    border-color: black;
+}
+
+#first {
+    background-color: darkgreen;
+    height: 300px;
+    width: 300px;
+}
+
+#second {
+    background-color: gold;
+    height: 250px;
+    width: 250px;
+    margin: 25px;
+}
+
+#third {
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+    margin: 25px;
 }
