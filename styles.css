@@ -1,0 +1,12 @@
+/*property*/
+/*css is cascading. It means to be applied from top to bottom orderly.
+last apply is valid only if there are duplicated settings */
+h1 {
+    color:yellowgreen;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+address {
+    font-weight: 800;
+}
