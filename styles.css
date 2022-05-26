@@ -1,15 +1,20 @@
 body {
-    height: 100vh; /*newly learned measure unit of screen*/
-    display: flex;
-    justify-content: space-between; /*main axis*/
-    align-items: center; /*cross axis*/
-}
-div {
-    width: 200px;
-    height: 200px;
-    background-color: plum;
+    height: 1000vh;
+    margin: 50px;
 }
 
-#second {
-    background-color:deeppink;
+div {
+    margin: 10px;
+}
+
+span{
+    background-color: lightcoral;
+}
+
+span:nth-child(even) {
+    background-color: lightgreen;
+}
+
+.second span:nth-child(3n+1) {
+    background-color: wheat;
 }
