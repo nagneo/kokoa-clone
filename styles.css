@@ -9,12 +9,35 @@ div {
 
 span{
     background-color: lightcoral;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
 }
 
 span:nth-child(even) {
     background-color: lightgreen;
 }
 
-.second span:nth-child(3n+1) {
+.second span:nth-child(odd) {
     background-color: wheat;
+}
+
+.second p {
+    background-color: lightblue;
+}
+
+/*inside*/
+div > span {
+    text-decoration: underline;
+}
+
+/*next*/
+div + span {
+    background-color: blue;
+    color: white;
+}
+
+body div p:last-child {
+    color: violet;
 }
