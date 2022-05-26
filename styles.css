@@ -3,41 +3,32 @@ body {
     margin: 50px;
 }
 
-div {
-    margin: 10px;
+input {
+    margin: 5px
 }
 
-span{
-    background-color: lightcoral;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 5px;
-    
+input::placeholder {
+    color: yellowgreen;
 }
 
-span:nth-child(even) {
-    background-color: lightgreen;
+p::first-letter {
+   font-size: 32px;
+   background-color: blue;
+   color: white;
+   padding: 5px;
 }
 
-.second span:nth-child(odd) {
-    background-color: wheat;
+p::selection {
+    background-color: palegreen;
 }
 
-.second p {
-    background-color: lightblue;
+form {
+    border: 1px solid sandybrown;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
-/*inside*/
-div > span {
-    text-decoration: underline;
-}
-
-/*next*/
-div + span {
-    background-color: blue;
-    color: white;
-}
-
-body div p:last-child {
-    color: violet;
+form:hover input:focus {
+    background: palevioletred;
 }
