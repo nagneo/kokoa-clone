@@ -1,5 +1,5 @@
 body {
-    height: 100vh; /*newly learned measure unit of screen*?
+    height: 100vh; /*newly learned measure unit of screen*/
     display: flex;
     justify-content: space-between; /*main axis*/
     align-items: center; /*cross axis*/
