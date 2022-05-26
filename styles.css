@@ -1,34 +1,15 @@
-/*https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing*/
-html {
-    background-color: tomato;
-}
 body {
-    margin: 50px 10px;
-    background-color: thistle;
-    padding: 20px;
+    height: 100vh; /*newly learned measure unit of screen*?
+    display: flex;
+    justify-content: space-between; /*main axis*/
+    align-items: center; /*cross axis*/
 }
-
-* {
-    border: 2px solid;
-    border-color: black;
-}
-
-#first {
-    background-color: darkgreen;
-    height: 300px;
-    width: 300px;
+div {
+    width: 200px;
+    height: 200px;
+    background-color: plum;
 }
 
 #second {
-    background-color: gold;
-    height: 250px;
-    width: 250px;
-    margin: 25px;
-}
-
-#third {
-    background-color: greenyellow;
-    height: 200px;
-    width: 200px;
-    margin: 25px;
+    background-color:deeppink;
 }
