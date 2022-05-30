@@ -1,4 +1,3 @@
-# KOKOA Clone 2020 Update
-Introduction of HTML, CSS - Clone Coding
+# Kokoa Clone 2020 Update
 
-CSS got so much better! - Nico
+HTML & CSS are so much fun!
